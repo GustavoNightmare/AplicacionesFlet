@@ -22,4 +22,4 @@ class BackgroundRemover:
 eliminador = BackgroundRemover(
     'ruta/a/carpeta/entrada', 'ruta/a/carpeta/salida')
 eliminador.remove_background(
-    "E:\ProyectosVisualStudio\AplicacionesFlet\Trespiés.jpg", "trespies_sinfondo.png")
+    "E:\ProyectosVisualStudio\AplicacionesFlet\GarrapateroPiquiliso.jpg", "paloma_sinfondo.png")
