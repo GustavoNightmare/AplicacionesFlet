@@ -1,6 +1,7 @@
 import flet as ft
 
 
+
 def main(page: ft.Page):
     page.title = "Background Remover Pro"
     page.bgcolor = "#1a1a2e"
@@ -8,7 +9,18 @@ def main(page: ft.Page):
     page.window.width = 1920
     page.theme_mode = ft.ThemeMode.DARK
 
-    btn_profesional = ft.Button(
+    select_files_info = ft.Text(
+        "Ningun Archivo Seleccionado",
+        color="#a0a0a0",
+        size = 14 ,
+
+
+    )
+    page.add(select_files_info)
+
+
+
+    btn_profesional = ft.ElevatedButton(
         content=ft.Row([
             ft.Icon(ft.Icons.CLOUD_UPLOAD, color="#ffffff"),
             ft.Text("Seleccionar Imagenes", color="#ffffff",
