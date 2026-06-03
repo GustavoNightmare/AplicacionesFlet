@@ -19,7 +19,8 @@ class BackgroundRemover:
         print("El fondo ha sido eliminado de la imagen.")
 
 
-eliminador = BackgroundRemover(
-    'ruta/a/carpeta/entrada', 'ruta/a/carpeta/salida')
-eliminador.remove_background(
-    "E:\ProyectosVisualStudio\AplicacionesFlet\GarrapateroPiquiliso.jpg", "paloma_sinfondo.png")
+if __name__ == "__main__":
+    eliminador = BackgroundRemover(
+        'ruta/a/carpeta/entrada', 'ruta/a/carpeta/salida')
+    eliminador.remove_background(
+        r"E:\ProyectosVisualStudio\AplicacionesFlet\GarrapateroPiquiliso.jpg", "paloma_sinfondo.png")
